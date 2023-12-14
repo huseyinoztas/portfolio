@@ -130,13 +130,17 @@ transition: all 0.4s ease-in-out;
 const Contact = () => {
   const [open, setOpen] = React.useState(false);
   const form = useRef();
+  
 
+  
   const handleSubmit = (e) => {
     e.preventDefault();
     emailjs.sendForm('service_ye3bjuf', 'template_jy661dx', form.current, 'x5XMFI5viPf5cisSJ')
       .then((result) => {
-          console.log(result.text);
           setOpen(true)
+          alert("Email sent Succesfuly !");
+          console.log(result.text);
+          
       }, (error) => {
           console.log(error.text);
       });
@@ -146,7 +150,7 @@ const Contact = () => {
       <Wrapper>
         <Title>Contact</Title>
         <Desc>Feel free to reach out to me for any questions or opportunities!</Desc>
-        <ContactForm ref={form} onSubmit={handleSubmit}>
+        <ContactForm ref={form} onSubmit={handleSubmit} >
           <ContactTitle>Email Me 🚀</ContactTitle>
           <ContactInput placeholder="Your Email" name="from_name" />
           <ContactInput placeholder="Your Name" name="to_name" />
@@ -159,7 +163,8 @@ const Contact = () => {
   autoHideDuration={6000}
   onClose={() => setOpen(false)}
   message="Email sent successfully!"
-  variant="success"
+  severity="success"
+  
 />
       </Wrapper>
     </Container>
