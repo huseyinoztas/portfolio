@@ -142,7 +142,7 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
-    img: "https://scontent.fesb9-1.fna.fbcdn.net/v/t39.30808-1/400854449_655620063285410_5630615764470196434_n.jpg?stp=cp0_dst-jpg_e15_p320x320_q65&_nc_cat=110&ccb=1-7&_nc_sid=4da83f&_nc_ohc=4vddRBc_7uAAX-9WZEd&_nc_ht=scontent.fesb9-1.fna&oh=00_AfDxyi6O5A8mNTPplUe83ZZLMXPLFt7kHX0UpMemp3QcAw&oe=657B5E45",
+    img: "https://img-kariyer.mncdn.com/mnresize/150/150/UploadFiles/Clients/SquareLogo/341/ai_dtk_3341_6022024010210.png",
     role: "Sales Representative",
     company: "Basel Ilac",
     date: "March 2020 to Present",
