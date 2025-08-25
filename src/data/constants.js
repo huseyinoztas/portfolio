@@ -12,19 +12,18 @@ import tindog from '../images/tindog.png';
 export const Bio = {
   name: "Hüseyin Öztaş",
   roles: [
-    "Front End Developer",
+    "Product Manager",
     "Sales Representative",
-    "Dancer",
-    "Programmer",
+    "Front End Developer"
   ],
   description:
     "I have been a sales representative for years and I recieved product management training last year. I have been working to become a Front End Developer recently and have taken several courses on it.I developed an application in MERN Stack format.I did a lot of things, you can see them all on my github profile.",
   github: "https://github.com/huseyinoztas",
   resume:
-    "https://drive.google.com/file/d/1IfF6HsSC1LZGIj5HKDcFoO43LnxpnqWy/view?usp=sharing",
-  linkedin: "https://www.linkedin.com/in/h%C3%BCseyin-%C3%B6-674873b5/",
+    "https://drive.google.com/",
+  linkedin: "https://www.linkedin.com",
   twitter: "https://twitter.com",
-  insta: "https://www.instagram.com/huseyinn236",
+  insta: "https://www.instagram.com",
   facebook: "https://www.facebook.com",
 };
 
@@ -230,8 +229,8 @@ export const experiences = [
 export const education = [
   {
     id: 0,
-    img: "https://www.uludag.edu.tr/dosyalar/saglikkultur/2015-PDF/menu_img/uulogo_600.png",
-    school: "Bursa Uludag University",
+    img: "https://uludag.edu.tr/dosyalar/oidb/birimlogo/20250211092446394uu_logo.png",
+    school: "Bursa",
     date: "Sep 2011 - July 2015",
     grade: "2,34",
     desc: "I graduated from Uludağ University in 2011 with a degree in Public Administration. My academic journey at the Department of Public Administration equipped me with a comprehensive understanding of governance, public policy, and organizational management. This educational background has been instrumental in shaping my professional perspective and fueling my passion for contributing to effective public service. Since then, I have continued to build upon the foundation laid during my undergraduate studies through practical experiences and ongoing learning opportunities",
@@ -474,3 +473,4 @@ export const TimeLineData = [
   { year: 2020, text: "Shared my projects with the world" },
   { year: 2021, text: "Started my own platform" },
 ];
+
